@@ -13,7 +13,7 @@ npm i -s @allnulled/lsw-randomizer
 From node.js you have to:
 
 ```sh
-node node_modules/@allnulled/lsw-randomizer/lsw-randomizer.js
+require("node_modules/@allnulled/lsw-randomizer/lsw-randomizer.js");
 ```
 
 From html you have to:
@@ -30,9 +30,9 @@ These are the available signatures for now:
 
 ```js
 class LswRandomizer {
-    static getRandomIntegerBetween(start = 0, end = 100) {
-    static getRandomString(len, alphabet = this.$defaultAlphabet) {
-    static getRandomItem(list) {
-    static getRandomObject(totalProps = [0, 10], listOf = false) {
+    static getRandomIntegerBetween(start = 0, end = 100) {}
+    static getRandomString(len, alphabet = this.$defaultAlphabet) {}
+    static getRandomItem(list) {}
+    static getRandomObject(totalProps = [0, 10], listOf = false) {}
 }
 ```
